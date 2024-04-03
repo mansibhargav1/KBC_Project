@@ -1,0 +1,77 @@
+body
+{
+background-image:url(back2.png);
+background-repeat:no-repeat;
+background-size:100;
+}
+textarea
+{
+top: 275px;
+left: 90px;
+position: absolute;
+text-align:center;
+font-size:15px;
+background: transparent;
+border: none;
+resize: none;
+outline: none;
+color: white;
+}
+#A
+{
+position: absolute;
+width: 355px;
+height: 38px;
+background: transparent;
+border: none;
+resize: none;
+outline: none;
+color: white;
+}
+#B
+{
+background: transparent;
+border: none;
+resize: none;
+outline: none;
+}
+p{ display: inline-block; }
+/* Navigation bar styling */
+.menu-list {
+max-width: 200px;
+margin-left: 750;
+height: 500px;
+border-top-color:white;
+}
+/* Logo, navigation menu styling */
+.geeks {
+overflow: hidden;
+background-color: #003399;
+color: white;
+position: relative;
+border-top-color:white;
+}
+/* styling navigation menu */
+.geeks #menus {
+display: none;
+}
+/* Link specific styling */
+.geeks a {
+text-decoration: none;
+color: white;
+padding: 5.5px 6px;
+font-size: 13px;
+display: block;
+}
+/* Navigation toggle menu styling */
+.geeks a.icon {
+display: block;
+position: absolute;
+right: 0;
+top: 0;
+}
+/* hover effect on navigation logo and menu */
+.geeks a:hover {
+background-color:white;
+color: #3333ff;
+}
